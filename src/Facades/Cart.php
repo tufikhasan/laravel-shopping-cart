@@ -37,6 +37,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static void restore(mixed $identifier)
  * @method static void erase(mixed $identifier)
  * @method static bool merge(mixed $identifier, bool $keepDiscount, bool $keepTax, bool $dispatchAdd)
+ * @method static void destroy()
  */
 class Cart extends Facade
 {
